@@ -10,7 +10,7 @@ double obliczMake(const std::vector<Tagliatelle>& v) {
     else if (M > 50 && M <= 100) {
         throw 2.;
     }
-    else {
+    else if(M<=50) {
         return M;
     }
 
