@@ -7,6 +7,6 @@
 #include <vector>
 template<typename T, typename R>
 void sortujTagliatelle(T t, R r) {
-    std::sort(t, r, [](double a, double b) {return a > b; });
+    std::sort(t, r, []( Tagliatelle a, Tagliatelle b) {return a.ileMaki() > b.ileMaki(); });
 }
 // tutaj funkcja sortujTagliatelle
